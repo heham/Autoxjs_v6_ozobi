@@ -27,8 +27,6 @@ jobs:
 
       - run: chmod 777 ./gradlew
 
-      - name: Build Docs
-        run: ./gradlew app:buildDocs
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
       - name: Build with Gradle
